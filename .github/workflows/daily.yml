@@ -1,5 +1,6 @@
 name: CF Bot
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: '30 12 * * *'      # 6 PM IST → daily problems
